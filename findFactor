@@ -1,0 +1,12 @@
+def findFactor(num):
+
+    i = 14
+    if i % num == 0:
+        print("Good !! Entered value ",num," is a factor of ",i)
+    else:
+        print("Sorry Entered value ",num," is not a factor of ",i)
+
+print("Which number is factor of 14")
+print("7   42   9   5")
+number = int(input("enter the number " ))
+print(findFactor(number))
