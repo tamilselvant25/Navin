@@ -1,0 +1,9 @@
+def factorOrNot(num):
+    b = 8
+    if b % num == 0: 
+        print("Correct ",num," is a factor of ",b)
+    else:
+        print("Sorry",num," is not a factor of ",b)
+print("Besides 1 and 8, what are the factor of 8 ?")
+number = int(input())
+print(factorOrNot(number))
