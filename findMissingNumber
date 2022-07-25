@@ -1,0 +1,10 @@
+def findMissingNumber(num):
+    b = 7
+    if num == b: 
+        print("Correct ")
+    else:
+        print("Sorry, Wrong")
+print("Type the missing number in this sequence:")
+print("   , 11,    15,    19,    23,    27")
+number = int(input())
+print(findMissingNumber(number))
